@@ -82,7 +82,6 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    './test_proxy',
     '@nuxtjs/axios',
     '@nuxtjs/proxy'
 
