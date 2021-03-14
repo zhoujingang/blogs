@@ -1,0 +1,9 @@
+{
+    "apps": [
+      {
+        "name": "blog-web",
+        "script": "npm", 
+        "args": "start" 
+      }
+    ]
+  }
