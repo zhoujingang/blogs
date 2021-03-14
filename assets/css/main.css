@@ -1,0 +1,18 @@
+/* 通用配置 */
+#__nuxt,#__layout {
+  height: 100%
+}
+/* 页面切换过度动画 */
+.page-enter-active, .page-leave-active {
+  transition: opacity .5s;
+}
+.page-enter, .page-leave-active {
+  opacity: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
